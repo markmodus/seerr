@@ -45,4 +45,3 @@ Optionally, notifications can be sent silently. Silent notifications send messag
 ### Embed Poster (optional)
 
 When enabled, the poster image of the requested movie or series is included in the notification message.
-

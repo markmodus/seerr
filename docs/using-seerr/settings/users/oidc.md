@@ -6,7 +6,7 @@ sidebar_position: 2.5
 
 # OpenID Connect
 
-Seerr supports OpenID Connect (OIDC) for authentication and authorization. 
+Seerr supports OpenID Connect (OIDC) for authentication and authorization.
 
 :::tip
 
@@ -42,7 +42,7 @@ To begin setting up OpenID Connect, make the following updates:
 
 ### Provider Slug (`slug`)
 
-Unique identifier for the provider. This should not be changed after initial setup. 
+Unique identifier for the provider. This should not be changed after initial setup.
 
 ### Provider Name (`name`)
 
@@ -101,7 +101,7 @@ To set up Keycloak, follow these steps:
 1. Set the client ID to `seerr`, and set the name to "Seerr" (or whatever you prefer).
   ![Keycloak Step 2](./assets/oidc_keycloak_2.png)
 
-1. Next, be sure to enable "Client authentication" in the capabilities section. The remaining defaults should be fine. 
+1. Next, be sure to enable "Client authentication" in the capabilities section. The remaining defaults should be fine.
   ![Keycloak Step 3](./assets/oidc_keycloak_3.png)
 
 1. Finally, set the root url to your Seerr instance's URL, and a wildcard `/*` as a valid redirect URL.
